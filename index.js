@@ -4,7 +4,7 @@ const app = express()
 const configureDB = require('./config/database')
 configureDB()
 const routes = require('./config/routes')
-const port = 3050
+const port = 3000
 
 app.use(express.json())
 app.use(cors())
